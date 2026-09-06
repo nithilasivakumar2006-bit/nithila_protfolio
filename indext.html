@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <h2>Nithila</h2>
+
+        <div>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <h1>Hi, I'm Nithilasivakumar 👋</h1>
+
+    <p>B.Tech Information Technology Student</p>
+    <section>
+        <h2>About Me</h2>
+
+        <p>
+            I am a B.Tech Information Technology student
+            interested in Web Development and Technology.
+        </p>
+    </section>
+
+    <button id="helloBtn">Click Me</button>
+
+    <p id="message"></p>
+    <section>
+        <h2>My Skills</h2>
+        <p>HTML | CSS | JavaScript | Python | SQL</p>
+    </section>
+    <button id="darkBtn">Dark Mode</button>
+
+    <section id="projects" class="project-card">
+        <h2>🚀 Personal Portfolio Website</h2>
+        <p>
+            A responsive personal portfolio website created using
+            HTML, CSS and JavaScript.
+        </p>
+
+        <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+
+        <button onclick="showProject()">View Project</button>
+
+        <p id="projectMessage"></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <p>Email: nithilasivakumar2006@gmail.com</p>
+
+        <form action="https://formspree.io/f/xrpgajld" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+
+            <input type="email" name="email" placeholder="Your Email" required>
+
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
